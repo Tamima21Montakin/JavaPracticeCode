@@ -7,11 +7,11 @@ public class collectionPracticeMain {
             hotelRoom supreme = new hotelRoom("room1", "supreme", 4, 220.0);
             hotelRoom  deluxe = new hotelRoom("room2", "deluxe", 6, 520.0);
             hotelRoom basic = new hotelRoom("room3", "basic", 2, 100.0);
-            hotelRoom standard = new hotelRoom("room4", "standard", 3, 150.0);
+            hotelRoom superior = new hotelRoom("room4", "standard", 3, 150.0);
 
-            Collection<hotelRoom> rooms = List.of(supreme,deluxe,basic,standard);
+            Collection<hotelRoom> rooms = List.of(supreme,deluxe,basic,superior);
             double total = getRoomRate(rooms);
-            System.out.println(total);
+            System.out.println("Total Bill is "+total);
 
 
     }
