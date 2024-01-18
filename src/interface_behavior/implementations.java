@@ -8,4 +8,9 @@ public class implementations implements contract{
     public void term2() {
         System.out.println("Implemented: Term2");
     }
+
+    @Override
+    public void extendTerm() {
+        System.out.println("Implemented: extendTerm");
+    }
 }

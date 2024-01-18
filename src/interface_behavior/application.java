@@ -15,5 +15,7 @@ public class application {
     {
         con.term1();
         con.term2();
+        // accessing the extended interface member
+        con.extendTerm();
     }
 }
